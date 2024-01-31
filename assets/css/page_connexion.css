@@ -1,8 +1,16 @@
-body {
-    background-color: #FED9B7;
-}
 
 .container {
+    background-color: #FED9B7;
+    display: flex;
+    justify-content: center;
+}
+
+.login_container {
+    width: fit-content;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 40px;
@@ -11,6 +19,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.img_logo {
+    width: 20em;
 }
 
 p {
