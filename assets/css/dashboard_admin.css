@@ -1,0 +1,67 @@
+
+.container {
+    background-color: #E1E5EE;
+}
+
+.nb_inscrits {
+    background-color: #2A324B;
+    border: 1px solid #2A324B;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.personnes_inscrites {
+    background-color: #2A324B;
+    border: 1px solid #2A324B;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.nb_artistes {
+    background-color: #767B91;
+    border: 1px solid #767B91;
+    border-radius: 40px;
+    color: #000000;
+}
+
+.programmation {
+    background-color: #767B91;
+    border: 1px solid #767B91;
+    border-radius: 40px;
+    color: #000000;
+}
+
+.counter {
+    background-color: #C7CCDB;
+    border: 1px solid #C7CCDB;
+    border-radius: 40px;
+    color: #000000;
+}
+
+.infos_faq {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    color: #000000;
+}
+
+.mentions_legales {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    color: #000000;
+}
+
+.artistes {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #F7C59F;
+    border: 1px solid #F7C59F;
+    border-radius: 40px;
+
+}

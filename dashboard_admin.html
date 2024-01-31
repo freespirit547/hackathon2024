@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+    <link rel="stylesheet" href="assets\css\dashboard_admin.css">
+    <link rel="stylesheet" href="assets\lib\bootstrap-5.3.2-dist\css\bootstrap.min.css">
 </head>
 
 <body>
@@ -24,62 +26,55 @@
     </nav>
     
     <main>
-        <section class="inscrits">
-            <div>
-                <h3>Nombre d'inscrits</h3>
-            </div>
-            <div>
-                <h2>Personnes inscrites</h2>
-                <button>Voir tous les inscrits</button>
-            </div>
-        </section>
+        <div class="container">
 
-        <section class="programme">
-            <div>
-                <h3>Nombre d'artistes programmés</h3>
-            </div>
-            <div>
-                <h2>Programmation</h2>
-                <button>Voir tous les inscrits</button>
-            </div>
-        </section>
-
-        <section class="counter">
-            <div>
-                <h3>Jours restants avant le jour J</h3>
-            </div>
-        </section>
-
-        <section class="mentions-légales">
-            <div>
-                <h3>Mentions légales</h3>
-                <button>Modifier</button>
-            </div>
-        </section>
-
-        <section class="infos_faq">
-            <div>
-                <div>
+            <section class="row">
+                <div class="col-md-3 nb_inscrits">
+                    <h3>Nombre d'inscrits</h3>
+                </div>
+                <div class="col-md-3 nb_artistes">
+                    <h3>Nombre d'artistes programmés</h3>
+                </div>
+                <div class="col-md-3 counter">
+                    <h3>Jours restants avant le jour J</h3>
+                </div>
+                <div class="col-md-3 infos_faq">
                     <h3>Infos pratiques</h3>
-                    <button>Modifier</button>
-                </div>
-                <div>
+                    <button class="btn-primary">Modifier</button>
                     <h3>FAQ</h3>
-                    <button>Modifier</button>
+                    <button class="btn-primary">Modifier</button>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="artistes">
-            <div>
-                <h2>ARTISTES</h2>
-                <div></div>
-                <button>Voir tous les artistes</button>
-            </div>
-        </section>
+            <section class="row">
+                <div class="col-md-3 personnes_inscrites">
+                    <h2>Personnes inscrites</h2>
+                    <button class="btn-primary">Voir tous les inscrits</button>
+                </div>
+                <div class="col-md-3 programmation">
+                    <h2>Programmation</h2>
+                    <button class="btn-primary">Voir tous les inscrits</button>
+                </div>
+                <div class="col-md-3 mentions_legales">
+                    <h3>Mentions légales</h3>
+                    <button class="btn-primary">Modifier</button>
+                </div>
+            </section>
 
+            <section class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 artistes">
+                    <h2>ARTISTES</h2>
+                    <div></div>
+                    <button class="btn-primary">Voir tous les artistes</button>
+                </div>
+            </section>
+
+        </div>
 
     </main>
 
+
+    <script src="assets\lib\bootstrap-5.3.2-dist\js\bootstrap.min.js"></script>
 </body>
 </html>
