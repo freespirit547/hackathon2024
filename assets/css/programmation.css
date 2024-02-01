@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('assets/fonts/Poppins') format('ttf');
+}
+
 .container {
     background-color: #FED9B7;
     display: flex;
@@ -9,8 +15,10 @@ header {
     display: flex;
     flex-direction: row;
 }
+
 .img_logo {
-    border-radius: 0%;
+    width: 100%;
+    height: 100%;
 }
 
 section {
@@ -20,8 +28,19 @@ section {
 }
 
 img {
-    width: 50%;
-    border-radius: 40%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    padding-bottom: 5%;
+}
+
+.img_portrait {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    display: flex;
 }
 
 .artistes {
@@ -35,6 +54,10 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 5%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
 }
 
 .btn-container {
@@ -43,17 +66,33 @@ img {
 }
 
 .btn-primary {
+    height: 40px;
+    width: 100px;
     background-color: #F07167;
     border: 1px solid #F07167;
     border-radius: 40px;
     color: #FFFFFF;
+    font-size: medium;
 }
 
 .btn-secondary {
+    height: 40px;
+    min-width: 100px;    
     background-color: #00AFB9;
     border: 1px solid #00AFB9;
     border-radius: 40px;
     color: #FFFFFF;
+    font-size: medium;
+}
+
+.larger {
+    height: 40px;
+    width: 150px;    
+    background-color: #00AFB9;
+    border: 1px solid #00AFB9;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-size: medium;
 }
 
 .section_newsletter {
