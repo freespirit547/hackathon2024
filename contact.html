@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="assets\css\contact.css">
 </head>
 
-<body>
+<body class="container">
     
     <header></header>
 
@@ -19,34 +20,39 @@
     </nav>
 
     <main>
-        <p>Contactez-nous</p>
-        <form action="" method="">
+        <img src="assets\img\logo_festival.png" alt="logo_festival">
+        <p>Contact</p>
 
-            <label for="">Nom</label>
-            <input type="" id="" name="" required>
+        <div class="form_container">
+            <form action="" method="">
 
-            <label for="">Prénom</label>
-            <input type="" id="" name="" required>
+                <label for="">Nom</label>
+                <input type="" id="" name="" required>
 
-            <label for="">Adresse e-mail</label>
-            <input type="" id="" name="" required>
+                <label for="">Prénom</label>
+                <input type="" id="" name="" required>
 
-            <label for="">Téléphone</label>
-            <input type="" id="" name="">
+                <label for="">Adresse e-mail</label>
+                <input type="" id="" name="" required>
 
-            <label for="">Objet de la demande</label>
-            <select id="genre" name="genre">
-                <option value="homme">Réservation</option>
-                <option value="femme">Contact professionnel</option>
-                <option value="autre">Autre</option>
-            </select>
-            <input type="" id="" name="" required>
+                <label for="">Mobile</label>
+                <input type="" id="" name="">
 
-            <label for="">Message</label>
-            <input type="" id="" name="" required>
+                <label for="">Objet de la demande</label>
+                <select id="genre" name="genre">
+                    <option value="homme">Réservation</option>
+                    <option value="femme">Contact professionnel</option>
+                    <option value="autre">Autre</option>
+                </select>
+                <input type="" id="" name="" required>
 
-            <button type="submit">Envoyer</button>
-        </form>
+                <label for="">Message</label>
+                <input type="" id="" name="" required>
+
+                <button class="btn-primary" type="submit">Envoyer</button>
+            </form>
+        </div>
+
 
     </main>
 

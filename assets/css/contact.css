@@ -1,0 +1,16 @@
+.container {
+    background-color: #FED9B7;
+}
+
+
+.form_container {
+
+}
+
+
+.btn-primary {
+    background-color: #F07167;
+    border: 1px solid #F07167;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
