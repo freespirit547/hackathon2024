@@ -1,0 +1,77 @@
+.container {
+    background-color: #FED9B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+.img_logo {
+    border-radius: 0%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 40%;
+}
+
+.artistes {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro_artistes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #F07167;
+    border: 1px solid #F07167;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    background-color: #00AFB9;
+    border: 1px solid #00AFB9;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.section_newsletter {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter_container {
+    width: fit-content;
+    background-color: #00AFB9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
