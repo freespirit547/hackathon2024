@@ -9,50 +9,42 @@
 
 <body class="container">
     
-    <header></header>
-
-    <nav>
-        <a href="">LE FESTIVAL</a>
-        <a href="">PROGRAMMATION</a>
-        <a href="">INFOS PRATIQUES</a>
-        <a href="">EDITIONS PRECEDENTES</a>
-        <button>BILLETTERIE</button>
-    </nav>
+    <header>
+        <img class="img_logo" src="assets\img\logo_festival.png" alt="logo_festival">
+        <p id="contact">Contact</p>
+    </header>
 
     <main>
-        <img src="assets\img\logo_festival.png" alt="logo_festival">
-        <p>Contact</p>
-
         <div class="form_container">
             <form action="" method="">
+                <div class="first_line">
+                    <input placeholder="Nom" type="" id="" name="" required>
+                    <input placeholder="Prénom" type="" id="" name="" required>
+                </div>
 
-                <label for="">Nom</label>
-                <input type="" id="" name="" required>
+                <div class="second_line">
+                    <input placeholder="E-mail" type="" id="" name="" required>
+                    <input placeholder="Mobile" type="" id="" name="">
+                </div>
 
-                <label for="">Prénom</label>
-                <input type="" id="" name="" required>
+                <div class="third_line">
+                    <input placeholder="Objet de la demande" type="" id="" name="" required>
+                    <select id="genre" name="genre">
+                        <option value="homme">Réservation</option>
+                        <option value="femme">Contact professionnel</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
 
-                <label for="">Adresse e-mail</label>
-                <input type="" id="" name="" required>
+                <div class="message_block">
+                    <input placeholder="Message" type="" id="" name="" required>
+                </div>
 
-                <label for="">Mobile</label>
-                <input type="" id="" name="">
-
-                <label for="">Objet de la demande</label>
-                <select id="genre" name="genre">
-                    <option value="homme">Réservation</option>
-                    <option value="femme">Contact professionnel</option>
-                    <option value="autre">Autre</option>
-                </select>
-                <input type="" id="" name="" required>
-
-                <label for="">Message</label>
-                <input type="" id="" name="" required>
-
-                <button class="btn-primary" type="submit">Envoyer</button>
+                <div class="submit_btn">
+                    <button class="btn-primary" type="submit">Envoyer</button>
+                </div>
             </form>
         </div>
-
 
     </main>
 
