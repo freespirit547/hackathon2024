@@ -1,0 +1,26 @@
+.container {
+    background-color: #FED9B7;
+}
+
+main .main_container section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section img {
+    width: 75%;
+    height: 20em;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+main section .text_container {
+    background-color: #0081A7;
+    color: #EEF6F8;
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    border-radius: 40px;
+    padding: 3%;
+}
+
